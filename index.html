@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script>
-</script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+    <script src="https://cdn.datatables.net/2.1.8/js/dataTables.jqueryui.js"></script>
+
+    <script>
+        var jsondata = $.getJSON("./sortData_ticketplus.json", function (data) {
+            console.log("load success");
+            data.forEach(subdata => {if (subdata['enddate']==null)subdata['enddate']='';})
+            $('#example').DataTable({
+                data: data,
+                columns: [
+                    { data: 'date' },
+                    { data: 'enddate' },
+                    { data: 'name' },
+                ]
+            });
+        })
+        console.log(jsondata);
+        $(document).ready(function () {
+
+        });
+
+    </script>
 </head>
+
 <body>
 
-<h1>Hello world!!!!</h1>
-
+    <h1>演唱會資訊</h1>
+    <table id="example" class="display dataTable" style="width:100%"></table>
 </body>
+
 </html>
