@@ -17,20 +17,22 @@
     "date": "2024/10/26",
     "name": "CHOI JIN HYUK 2024 FAN-CON Tour in Taipei &lt;DAY AND NIGHT&gt;"
   },
+  {
+    "date": "2024/10/26",
+    "enddate": "2024/11/09",
+    "name": "赭月製作 原創音樂劇《台北莉莉絲》音樂會"
+  },
   { "date": "2024/10/26", "name": "【 Phoenix Rising In TAIPEI 】" },
   {
     "date": "2024/10/26",
     "enddate": "2024/10/27",
     "name": "AKB48 Team TP 8th single 『24/7 Shining』發售紀念握手會"
   },
-  {
-    "date": "2024/10/26 ~ 2024/11/09",
-    "name": "赭月製作 原創音樂劇《台北莉莉絲》音樂會"
-  },
   { "date": "2024/10/27", "name": "飯島寬騎 台北FAN MEETING" },
   { "date": "2024/10/30", "name": "柯泯薰 x 四枝筆演唱會" },
   {
-    "date": "2024/10/31 ~ 2024/11/03",
+    "date": "2024/10/31",
+    "enddate": "2024/11/03",
     "name": "【實名制登記抽選】輝葉按摩椅呈獻 今天···is the Day 劉德華巡迴演唱會 2024 -台北站"
   },
   { "date": "2024/11/01", "name": "依錚依靜  天蠍女孩生日場" },
@@ -59,7 +61,16 @@
     "date": "2024/11/08",
     "name": "[Dear my Love] LING &amp; ORM 1st FAN MEETING in TAIPEI"
   },
-  { "date": "2024/11/08 ~ 2024/11/09", "name": "The Something Something Tour" },
+  {
+    "date": "2024/11/08",
+    "enddate": "2024/11/09",
+    "name": "The Something Something Tour"
+  },
+  {
+    "date": "2024/11/09",
+    "enddate": "2024/11/10",
+    "name": "LoveLive! Series Asia Tour 2024～伴你圓夢～"
+  },
   {
     "date": "2024/11/09",
     "enddate": "2024/11/10",
@@ -70,10 +81,6 @@
     "date": "2024/11/09",
     "enddate": "2025/05/11",
     "name": "2024-25 TPBL新竹御嵿攻城獅主場例行賽 季套票專區"
-  },
-  {
-    "date": "2024/11/09 ~ 2024/11/10",
-    "name": "LoveLive! Series Asia Tour 2024～伴你圓夢～"
   },
   { "date": "2024/11/10", "name": "2024 ONEUS FAN CONCERT IN TAIPEI" },
   {
@@ -88,16 +95,28 @@
   },
   { "date": "2024/11/14", "name": "Novelists 2024 Asia Tour Live in Taipei" },
   { "date": "2024/11/14", "name": "henÿ《把所有的你裝進回憶》" },
+  {
+    "date": "2024/11/15",
+    "enddate": "2024/11/17",
+    "name": "Tu Day Tu Nay 從這裡開始"
+  },
   { "date": "2024/11/15", "name": "青虫aoi《愛人，不如愛虫》冬季小巡迴台北場" },
-  { "date": "2024/11/15 ~ 2024/11/17", "name": "Tu Day Tu Nay 從這裡開始" },
+  {
+    "date": "2024/11/16",
+    "enddate": "2024/11/17",
+    "name": "2024 ULTRA TAIWAN"
+  },
   { "date": "2024/11/16", "name": "Sumire Uesaka Fan Meeting in Taipei" },
+  {
+    "date": "2024/11/16",
+    "enddate": "2024/11/17",
+    "name": "2024 蕭煌奇 Good Show 演唱會"
+  },
   { "date": "2024/11/16", "name": "Take That - This Life On Tour 2024" },
   {
     "date": "2024/11/16",
     "name": "【Mastercard專區】Take That - This Life On Tour 2024"
   },
-  { "date": "2024/11/16 ~ 2024/11/17", "name": "2024 ULTRA TAIWAN" },
-  { "date": "2024/11/16 ~ 2024/11/17", "name": "2024 蕭煌奇 Good Show 演唱會" },
   {
     "date": "2024/11/17",
     "name": "Moon Jong Up Concert [PETER 2024] In Taipei"
@@ -117,10 +136,16 @@
     "date": "2024/11/22",
     "name": "[ 我以為宇宙跟我說好了 ] 概念巡演 - 台北首場 @ 野地方"
   },
+  {
+    "date": "2024/11/22",
+    "enddate": "2024/11/24",
+    "name": "2024 Roving Nation Festival 漂遊者森林音樂祭"
+  },
   { "date": "2024/11/22", "name": "2024 YUGYEOM TOUR [TRUSTY] IN TAIPEI" },
   {
-    "date": "2024/11/22 ~ 2024/11/24",
-    "name": "2024 Roving Nation Festival 漂遊者森林音樂祭"
+    "date": "2024/11/23",
+    "enddate": "2024/12/13",
+    "name": "Ring 誓約之聲 tHesEus’x PARADOX"
   },
   {
     "date": "2024/11/23",
@@ -139,10 +164,6 @@
   {
     "date": "2024/11/23",
     "name": "【Mastercard專區】motorola呈獻 周湯豪REALIVE (R2) 特仕版"
-  },
-  {
-    "date": "2024/11/23 ~ 2024/12/13",
-    "name": "Ring 誓約之聲 tHesEus’x PARADOX"
   },
   { "date": "2024/11/24", "name": "甜約翰Sweet John【Mindcraft】演唱會" },
   {
@@ -169,27 +190,31 @@
     "date": "2024/11/30",
     "name": "福夢 FUMON【BLESSED】專輯發片演唱會 – 高雄站"
   },
+  {
+    "date": "2024/11/30",
+    "enddate": "2024/12/01",
+    "name": "Naniwa Danshi ASIA TOUR 2024+2025 ‘+Alpha‘"
+  },
+  {
+    "date": "2024/11/30",
+    "enddate": "2024/12/01",
+    "name": "Naniwa Danshi ASIA TOUR 2024+2025 ‘+Alpha‘ 登記抽選"
+  },
+  {
+    "date": "2024/11/30",
+    "enddate": "2024/12/01",
+    "name": "milet Asia Tour 2024 in Taipei"
+  },
+  {
+    "date": "2024/11/30",
+    "enddate": "2024/12/01",
+    "name": "milet Asia Tour 2024 in Taipei 登記抽選"
+  },
   { "date": "2024/11/30", "name": "žž瑋琪＆YJL林呱創作專場" },
   {
     "date": "2024/11/30",
     "enddate": "2024/12/01",
     "name": "2024 FireBall Fest. 火球祭"
-  },
-  {
-    "date": "2024/11/30 ~ 2024/12/01",
-    "name": "Naniwa Danshi ASIA TOUR 2024+2025 ‘+Alpha‘"
-  },
-  {
-    "date": "2024/11/30 ~ 2024/12/01",
-    "name": "Naniwa Danshi ASIA TOUR 2024+2025 ‘+Alpha‘ 登記抽選"
-  },
-  {
-    "date": "2024/11/30 ~ 2024/12/01",
-    "name": "milet Asia Tour 2024 in Taipei"
-  },
-  {
-    "date": "2024/11/30 ~ 2024/12/01",
-    "name": "milet Asia Tour 2024 in Taipei 登記抽選"
   },
   {
     "date": "2024/12/01",
@@ -254,13 +279,15 @@
     "date": "2024/12/28",
     "name": "DPR - The Dream Reborn World Tour 2024 in TAIPEI"
   },
-  { "date": "2025/01/04", "name": "【 SINCE Live In TAIPEI 】" },
   {
-    "date": "2025/01/04 ~ 2025/01/05",
+    "date": "2025/01/04",
+    "enddate": "2025/01/05",
     "name": "1st FNC BAND KINGDOM in Taoyuan"
   },
+  { "date": "2025/01/04", "name": "【 SINCE Live In TAIPEI 】" },
   {
-    "date": "2025/01/11 ~ 2025/01/12",
+    "date": "2025/01/11",
+    "enddate": "2025/01/12",
     "name": "冰球樂團「早安 晚安 好喜歡」2025 Day By Day 演唱會 高雄場"
   },
   {
