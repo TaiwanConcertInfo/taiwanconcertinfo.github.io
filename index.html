@@ -9,37 +9,65 @@
 
 
     <style>
-        html{
+        html {
             background-color: #F1E1FF;
         }
+
         @import url("https://fonts.googleapis.com/css?family=Noto+Serif+TC&amp;display=swap");
-        body{
-            font-family: 'Noto Serif TC',"Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+
+        body {
+            font-family: 'Noto Serif TC', "Helvetica", "Arial", "LiHei Pro", "黑體-繁", "微軟正黑體", sans-serif;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            background-color: #E6CAFF;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        a {
+            color: #FFF
+        }
+
         #title {
             background-image: radial-gradient(#E6CAFF 30%, transparent 0);
             background-size: 30px 30px;
         }
+
         #table {
+            flex:1;
             margin-left: auto;
             margin-right: auto;
         }
-        h1 {
-            text-align: center;
+
+        #updateTime {
+            text-align: right;
         }
-        #updateTime{
-            text-align:right;
+
+        #mark {
+            position: fixed;
+            width: 10%;
         }
-        #mark{
-                position: fixed;
-                width: 10%;
-        }
-        .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+
+        .ui-state-default,
+        .ui-widget-content .ui-state-default,
+        .ui-widget-header .ui-state-default,
+        .ui-button,
+        html .ui-button.ui-state-disabled:hover,
+        html .ui-button.ui-state-disabled:active {
             border: 1px solid #FFFFCE;
             background: #FFFFB9;
         }
     </style>
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
     <script src="https://cdn.datatables.net/2.1.8/js/dataTables.jqueryui.js"></script>
@@ -47,7 +75,7 @@
     <script>
         var jsondata = $.getJSON("./sortData_ticketplus.json", function (data) {
             console.log("load success");
-            data.forEach(subdata => {if (subdata['enddate']==null)subdata['enddate']='';})
+            data.forEach(subdata => { if (subdata['enddate'] == null) subdata['enddate'] = ''; })
             $('#example').DataTable({
                 data: data,
                 columns: [
@@ -64,13 +92,13 @@
                     search: "搜尋:",
                     zeroRecords: '查無資料抱歉',
                     paginate: {
-                        "first":      "第一頁",
-                        "last":       "最後一頁",
-                        "next":       "下一頁",
-                        "previous":   "前一頁"
+                        "first": "第一頁",
+                        "last": "最後一頁",
+                        "next": "下一頁",
+                        "previous": "前一頁"
                     },
                     aria: {
-                        "orderable":  "順序",
+                        "orderable": "順序",
                         "orderableReverse": "倒序"
                     }
                 }
@@ -87,11 +115,11 @@
 <body>
     <div id="title">
         <img id="mark" src="Dracula.png">
-        <h1 >臺灣演唱會資訊</h1>
+        <h1>臺灣演唱會資訊</h1>
         <div id="updateTime">更新時間:2024/10/23</div>
     </div>
     <div id="table" style="width:80%">
-        <table id="example" class="display dataTable" >
+        <table id="example" class="display dataTable">
             <thead>
                 <tr>
                     <th>活動日</th>
@@ -102,7 +130,13 @@
             </thead>
         </table>
     </div>
+    <footer>
+        <p>因為常常忘記演唱會時間沒搶票而做的小網站</p>
+        <p>
+            <a href="https://forms.gle/ckvDoZsziJ6B6LWG7" target="_blank" rel="noreferrer">聯絡Dracula</a>
+        </p>
 
+    </footer>
 </body>
 
 </html>
