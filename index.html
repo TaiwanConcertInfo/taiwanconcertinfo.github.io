@@ -11,8 +11,15 @@
         body{
             font-family: 'Noto Serif TC',"Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
         }
+        #title {
+            background-image: radial-gradient(#E6CAFF 30%, transparent 0);
+            background-size: 30px 30px;
+        }
         h1 {
             text-align: center;
+        }
+        #updateTime{
+            text-align:right;
         }
     </style>
     
@@ -43,9 +50,10 @@
 </head>
 
 <body>
-
-    <h1 >臺灣演唱會資訊</h1>
-    <span>更新時間:2024/10/23</span>
+    <div id="title">
+        <h1 >臺灣演唱會資訊</h1>
+        <div id="updateTime">更新時間:2024/10/23</div>
+    </div>
     <table id="example" class="display dataTable" style="width:80%">
         <thead>
             <tr>
